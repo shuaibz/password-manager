@@ -1,0 +1,15 @@
+Run setup.py before starting. It installs necessary libraries.
+
+You may delete setup.py and requirements.txt after that but its preferable that you keep it since it will be required for every new computer you want to run this on
+
+The software has an encryption algorithm which accepts a number between 1 and 70 and behaves differently depending upon the number given, and 10 different scramblers.
+
+Choose 2 numbers, one between 1 and 70 for encryption algorithm and another between 1 and 10 for scrambler. Remember these 2 numbers since they configure which algorithms are used for encryption and decryption.
+
+Encrypt your passwords with your chosen numbers, which will be stored in passwords-encrypted.json. Even if anyone gets their hand on the file, they will have to try 700 different combinations.
+
+passwords-encrypted.json has a random value at start. This is there because the program misbehaves if it finds an empty json file. Hence, do not leave the file empty, keep the random value
+
+passwords-encrypted.json stores your passwords, encrypted. Keep a copy of this file because any tampering with it will make your passwords irrecoverable. Keeping a copy also saves you from an accidental or mischeiveous tampering
+
+jQuery has been added locally instead of remotely because that will make the software work even without an internet connection

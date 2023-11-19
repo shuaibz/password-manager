@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hompage</title>
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='common.css') }}">
+    <style>
+
+        a {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>What would you like to do?</h1>
+    <div>
+        <button><a href="./get-password">Get passwords</a></button>
+        <button><a href="./set-password">Set/Edit password</a></button>
+    </div>
+</body>
+
+</html>

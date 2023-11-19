@@ -1,0 +1,28 @@
+body {
+    background-color: #000;
+    color: white;
+    text-align: center;
+}
+
+input {
+    background-color: #000;
+    color: white;
+}
+
+
+button {
+    padding: 0.7rem;
+    margin: 0.3rem;
+
+    background-color: black;
+    color: white;
+
+    border: 1px solid white;
+    border-radius: 3px;
+
+    transition: transform .2s;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
